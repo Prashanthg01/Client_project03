@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="/style_sheets/style.css">
+    <link rel="stylesheet" href="/style_sheets/brands-slider.css">
+    <script src="/scripts/script.js"></script>
+    <script src="/scripts/brands-slipder.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.2.0/css/all.min.css" integrity="sha512-6c4nX2tn5KbzeBJo9Ywpa0Gkt+mzCzJBrE1RB6fmpcsoN+b/w/euwIMuQKNyUoU/nToKN3a8SgNOtPrbW12fug==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    .bg_three {
+        background-image: linear-gradient(157.5deg, rgb(148, 31, 115) 0%, rgb(148, 31, 115) 42%,rgb(129, 38, 114) 42%, rgb(129, 38, 114) 53%,rgb(110, 44, 113) 53%, rgb(110, 44, 113) 68%,rgb(91, 51, 113) 68%, rgb(91, 51, 113) 70%,rgb(72, 58, 112) 70%, rgb(72, 58, 112) 83%,rgb(53, 64, 111) 83%, rgb(53, 64, 111) 97%,rgb(34, 71, 110) 97%, rgb(34, 71, 110) 100%),linear-gradient(90deg, rgb(148, 31, 115) 0%, rgb(148, 31, 115) 42%,rgb(129, 38, 114) 42%, rgb(129, 38, 114) 53%,rgb(110, 44, 113) 53%, rgb(110, 44, 113) 68%,rgb(91, 51, 113) 68%, rgb(91, 51, 113) 70%,rgb(72, 58, 112) 70%, rgb(72, 58, 112) 83%,rgb(53, 64, 111) 83%, rgb(53, 64, 111) 97%,rgb(34, 71, 110) 97%, rgb(34, 71, 110) 100%),linear-gradient(0deg, rgb(148, 31, 115) 0%, rgb(148, 31, 115) 42%,rgb(129, 38, 114) 42%, rgb(129, 38, 114) 53%,rgb(110, 44, 113) 53%, rgb(110, 44, 113) 68%,rgb(91, 51, 113) 68%, rgb(91, 51, 113) 70%,rgb(72, 58, 112) 70%, rgb(72, 58, 112) 83%,rgb(53, 64, 111) 83%, rgb(53, 64, 111) 97%,rgb(34, 71, 110) 97%, rgb(34, 71, 110) 100%),linear-gradient(90deg, rgb(43, 115, 147),rgb(213, 181, 127)); background-blend-mode:overlay,overlay,overlay,normal;
+        width: 100%;
+        height: 50vh;
+    }
+    .info_card {
+        margin: 0PX 20%;
+        color: #89188b;
+        margin-bottom: 5%;
+    }
+    .space_heading {
+        font-size: 45px;
+    }
+    .space_info {
+        font-size: 20px;
+        line-height: 30px;
+    }
+</style>
+<body>
+    <nav class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+          <div class="nav-title">
+            <img class="logo_img" src="/Images//logo.png" alt="">
+          </div>
+          <strong class="logo_text">Leidos</strong>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        
+        <ul class="nav-list">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/service.html">services</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="main_body">
+        <div>
+            <div class="bg_three banner_container">
+                <center class="page_heading"><strong class="main_heading"><h1>Space and Defence Services</h1></strong></center>
+                <center class="page_info"><p>Speed, security, and scale for your most critical space missions</p></center>
+                <center class="page_info2"><p>Science for a safer world</p></center>
+            </div>
+          </div>
+    </div>
+      
+    <div class="info_card">
+        <p class="space_heading">Exploring new frontiers in science, security, and humanity demands a blend of experience and innovative thinking</p>
+        <p class="space_info">With over five decades of experience, Leidos has been a key supporter of deep space exploration and human spaceflight. Our expertise in IT, engineering, and science has been instrumental in advancing both public and private sector missions. As the space industry evolves, Leidos continues to apply our comprehensive capabilities to support U.S. and allied defense, intelligence, and civilian agencies.</p>
+    </div>
+
+    <div class="services_card2">
+        <div class="buttons_div">
+          <button onclick="showDiv1(1)" id="btn1" class="active-btn">Human Exploration</button>
+          <button onclick="showDiv1(2)" id="btn2">NASA IT</button>
+          <button onclick="showDiv1(3)" id="btn3">ISR</button>
+          <button onclick="showDiv1(4)" id="btn4">Intelligence Aanlysis And operations</button>
+        </div>
+        
+        <div class="service_main">
+      
+        <div>
+          <div id="block1" class="contents active2">
+            <div class="service_card_one service_card">
+            <img src="/Images/Moon Render.jpg" alt="">
+              <div>
+                  <h3>Human Exploration</h3>
+                  <p>We have a history of performance at NASA centers across the country, offering the mission
+                     understanding and technical expertise necessary to support advancements in space exploration
+                      and human spaceflight.</p>
+              </div>
+          </div>
+          </div>
+          <div id="block2" class="contents">
+            <div class="service_card_two service_card">
+            <img src="/Images/HERO-3840x1074-NASA-NEST.jpg" alt="">
+              <div>
+                  <h3>NASA IT</h3>
+                  <p>Leidos understand that NASA's IT infrastructure is critical to accomplishing its mission.
+                     We’re working with the agency to evolve its entire IT environment and deliver exceptional
+                      end user IT services.</p>
+              </div>
+          </div>
+          </div>
+          <div id="block3" class="contents">
+            <div class="service_card_three service_card">
+              <img src="/Images/FEATURE-2170x1240Sensor-Radio_1.jpg" alt="">
+              <div>
+                  <h3>ISR</h3>
+                  <p>Resilient ground processing and space-based ISR analytics securely provides critical mission
+                     advantage at speed. </p>
+              </div>
+          </div>
+          </div>
+          <div id="block4" class="contents">
+            <div class="service_card_four service_card">
+              <img src="/Images/IMG-Satellite-with-Initial-T1-NEW.jpg" alt="">
+              <div>
+                  <h3>Payloads</h3>
+                  <p>The accelerating pace of change across the space domain requires continual situational
+                     awareness and threat detection capabilities; aligned to rapid payload innovation and integration. </p>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="info_card">
+        <p class="space_heading">From Seafloor to Cyberspace</p>
+        <p class="space_info">Utilizing our expertise in autonomy, networks, hypersonics, and more, we're shaping the future fleet's conception, readiness, and protection. Explore our integrated solutions for global mission success.</p>
+        <p class="space_heading">The specialized plane that advances aerial ISR</p>
+        <p class="space_info">What started as a technology demonstrator for the Army is now a fully integrated aircraft operating in-theater and surpassing performance metrics. The Leidos Special Mission Aircraft (LSMA) team leads the way in integrating and operating commercial derivative aircraft for evolving high-accuracy ISR missions.</p>
+        
+    </div>
+
+    <div class="services_card">
+        <div class="buttons_div">
+          <button onclick="showDiv(1)" id="button1" class="active-button">Cyber</button>
+          <button onclick="showDiv(2)" id="button2">operations AND logistics</button>
+          <button onclick="showDiv(3)" id="button3">C4ISR</button>
+          <button onclick="showDiv(4)" id="button4">Intelligence Aanlysis And operations</button>
+        </div>
+        
+        <div class="service_main">
+      
+        <div>
+          <div id="div1" class="content active">
+            <div class="service_card_one service_card">
+              <img src="/Images/cyber.jpg" alt="">
+              <div>
+                  <h3>CYBER</h3>
+                  <p>Leidos defends the most targeted networks in the world from the most
+                      sophisticated attacks, and we help our customers integrate unparalleled
+                      cyber solutions tailored to protect their agency or organization's most critical
+                      information and assets. Our team of cybersecurity experts — including cleared
+                      developers, solution architects, and key management personnel — bring an
+                      established track record for delivering agile, game-changing cyber solutions
+                      to modernize the operation and maintenance of network infrastructure,
+                      virtualization and cloud migration, and enterprise applications and systems.</p>
+              </div>
+          </div>
+          </div>
+          <div id="div2" class="content">
+            <div class="service_card_two service_card">
+              <img src="/Images/logistic.jpg" alt="">
+              <div>
+                  <h3>OPERATIONS AND LOGISTICS</h3>
+                  <p>Specialized platform and range support providing full spectrum aviation,
+                      ground, and maritime maintenance and operation solutions. We provide costeffective tools combined with experienced thought leadership and enhanced
+                      processes to meet global, mission-critical customer needs through product
+                      support, transportation and distribution, and logistics enablers.</p>
+              </div>
+          </div>
+          </div>
+          <div id="div3" class="content">
+            <div class="service_card_three service_card">
+              <img src="/Images/c4isr.jpg" alt="">
+              <div>
+                  <h3>C4ISR</h3>
+                  <p>Leidos delivers equipment, supplies, facilities, transportation, tools, materials
+                      and other items and services necessary to perform Command, Control,
+                      Communications, Computers, Intelligence, Surveillance and Reconnaissance
+                      (C4ISR) systems integration. Our mission-critical ISR systems provide support
+                      for the development, operation, and maintenance of manned, unmanned, and
+                      autonomous ISR vehicles</p>
+              </div>
+          </div>
+          </div>
+          <div id="div4" class="content">
+            <div class="service_card_four service_card">
+              <img src="/Images/inteligent_operations.jpg" alt="">
+              <div>
+                  <h3>INTELLIGENCE ANALYSIS AND OPERATIONS</h3>
+                  <p>Providing the delivery of innovative solutions, essential services, and enriched
+                      analytical tools, including GEOINT, SIGINT, and HUMINT processing and
+                      exploitation, both in and out of the contiguous states, to support U.S. and
+                      coalition forces in Counter-Improvised Explosive Device (IED) operations and
+                      countering irregular warfare threats during our customers’ critical missions.</p>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    </div>
+
+    <div>
+        <div class="bg_two mission_info">
+            <div>
+                <h1>Get in Touch</h1>
+                <h1>with us</h1>
+                <h2><a href="/contact.html"> Contact us </a></h2>
+            </div>
+            <div class="mission_p_info">
+                <p>Leidos is a Fortune 500® information technology, engineering, and science solutions and services leader working to solve the world’s toughest challenges in the defense, intelligence, homeland security, civil, and health markets. The company’s 31,000 employees support vital missions for government and commercial customers. Headquartered in Reston, Virginia, Leidos reported annual revenues of approximately $10.17 billion for the fiscal year ended December 29, 2017.</p>
+            </div>
+        </div>
+    </div>
+    <div></div>
+    <footer>
+        <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(23.246, 42.447, 164.346, 1)" offset="0%"></stop><stop stop-color="rgba(80.704, 122.137, 255, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,10L13.3,8.3C26.7,7,53,3,80,5C106.7,7,133,13,160,20C186.7,27,213,33,240,40C266.7,47,293,53,320,48.3C346.7,43,373,27,400,28.3C426.7,30,453,50,480,55C506.7,60,533,50,560,48.3C586.7,47,613,53,640,48.3C666.7,43,693,27,720,16.7C746.7,7,773,3,800,11.7C826.7,20,853,40,880,43.3C906.7,47,933,33,960,25C986.7,17,1013,13,1040,10C1066.7,7,1093,3,1120,11.7C1146.7,20,1173,40,1200,51.7C1226.7,63,1253,67,1280,63.3C1306.7,60,1333,50,1360,50C1386.7,50,1413,60,1440,53.3C1466.7,47,1493,23,1520,13.3C1546.7,3,1573,7,1600,16.7C1626.7,27,1653,43,1680,43.3C1706.7,43,1733,27,1760,18.3C1786.7,10,1813,10,1840,18.3C1866.7,27,1893,43,1907,51.7L1920,60L1920,100L1906.7,100C1893.3,100,1867,100,1840,100C1813.3,100,1787,100,1760,100C1733.3,100,1707,100,1680,100C1653.3,100,1627,100,1600,100C1573.3,100,1547,100,1520,100C1493.3,100,1467,100,1440,100C1413.3,100,1387,100,1360,100C1333.3,100,1307,100,1280,100C1253.3,100,1227,100,1200,100C1173.3,100,1147,100,1120,100C1093.3,100,1067,100,1040,100C1013.3,100,987,100,960,100C933.3,100,907,100,880,100C853.3,100,827,100,800,100C773.3,100,747,100,720,100C693.3,100,667,100,640,100C613.3,100,587,100,560,100C533.3,100,507,100,480,100C453.3,100,427,100,400,100C373.3,100,347,100,320,100C293.3,100,267,100,240,100C213.3,100,187,100,160,100C133.3,100,107,100,80,100C53.3,100,27,100,13,100L0,100Z"></path></svg>
+        <p>Copyright © 2024 liedos</p>
+    </footer>
+</body>
+</html>

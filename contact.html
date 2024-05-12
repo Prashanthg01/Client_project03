@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="/style_sheets/style.css">
+    <link rel="stylesheet" href="/style_sheets/brands-slider.css">
+    <script src="/scripts/script.js"></script>
+    <script src="/scripts/brands-slipder.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.2.0/css/all.min.css" integrity="sha512-6c4nX2tn5KbzeBJo9Ywpa0Gkt+mzCzJBrE1RB6fmpcsoN+b/w/euwIMuQKNyUoU/nToKN3a8SgNOtPrbW12fug==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<style>
+    footer {
+        position: fixed;
+        bottom: 0;
+    }
+</style>
+<body>
+    <nav class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+          <div class="nav-title">
+            <img class="logo_img" src="/Images//logo.png" alt="">
+          </div>
+          <strong class="logo_text">Leidos</strong>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        
+        <ul class="nav-list">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/service.html">Services</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="contact_card">
+        <div class="contact_img_div">
+            <img src="/Images/contact us.png" alt="">
+        </div>
+        <div class="form_div">
+            <form action="https://api.web3forms.com/submit" method="POST">
+
+                <!-- Replace with your Access Key -->
+                <input type="hidden" name="access_key" value="f8c2bd49-f782-49fe-afa6-c23e5f8adbfe">
+            
+                <!-- Form Inputs. Each input must have a name="" attribute -->
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <textarea name="message" placeholder="Enter your message" required></textarea>
+            
+                <!-- hCaptcha Spam Protection -->
+                <div class="h-captcha" data-captcha="true"></div>
+            
+                <button type="submit">Submit Form</button>
+            
+            </form>
+        </div>
+      </div>
+      <div></div>
+      <footer>
+        <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(23.246, 42.447, 164.346, 1)" offset="0%"></stop><stop stop-color="rgba(80.704, 122.137, 255, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,10L13.3,8.3C26.7,7,53,3,80,5C106.7,7,133,13,160,20C186.7,27,213,33,240,40C266.7,47,293,53,320,48.3C346.7,43,373,27,400,28.3C426.7,30,453,50,480,55C506.7,60,533,50,560,48.3C586.7,47,613,53,640,48.3C666.7,43,693,27,720,16.7C746.7,7,773,3,800,11.7C826.7,20,853,40,880,43.3C906.7,47,933,33,960,25C986.7,17,1013,13,1040,10C1066.7,7,1093,3,1120,11.7C1146.7,20,1173,40,1200,51.7C1226.7,63,1253,67,1280,63.3C1306.7,60,1333,50,1360,50C1386.7,50,1413,60,1440,53.3C1466.7,47,1493,23,1520,13.3C1546.7,3,1573,7,1600,16.7C1626.7,27,1653,43,1680,43.3C1706.7,43,1733,27,1760,18.3C1786.7,10,1813,10,1840,18.3C1866.7,27,1893,43,1907,51.7L1920,60L1920,100L1906.7,100C1893.3,100,1867,100,1840,100C1813.3,100,1787,100,1760,100C1733.3,100,1707,100,1680,100C1653.3,100,1627,100,1600,100C1573.3,100,1547,100,1520,100C1493.3,100,1467,100,1440,100C1413.3,100,1387,100,1360,100C1333.3,100,1307,100,1280,100C1253.3,100,1227,100,1200,100C1173.3,100,1147,100,1120,100C1093.3,100,1067,100,1040,100C1013.3,100,987,100,960,100C933.3,100,907,100,880,100C853.3,100,827,100,800,100C773.3,100,747,100,720,100C693.3,100,667,100,640,100C613.3,100,587,100,560,100C533.3,100,507,100,480,100C453.3,100,427,100,400,100C373.3,100,347,100,320,100C293.3,100,267,100,240,100C213.3,100,187,100,160,100C133.3,100,107,100,80,100C53.3,100,27,100,13,100L0,100Z"></path></svg>
+        <p>Copyright © 2024 liedos</p>
+    </footer>
+</body>
+<script src="https://web3forms.com/client/script.js" async defer></script>
+</html>
